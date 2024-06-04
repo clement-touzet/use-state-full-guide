@@ -7,13 +7,9 @@ import ListExemple from "./exemple/list-exemple/list-exemple";
 function App() {
   const [task, setTask] = useState("Faire 1 heure de deep work");
 
-  // const handleSetTask = () => {
-  //   setTask("Lire 1 heure");
-  // };
-
   return (
     <div>
-      <div>mon état : {task}</div>
+      <div>Ma tache : {task}</div>
       <br />
       {/* <NotConditionalHooks /> */}
       <ListExemple />
